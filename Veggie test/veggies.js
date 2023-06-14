@@ -775,41 +775,42 @@ var leveleasy = [
 				id: ''
 			}
 		]
-	},
-	{
-		scenario: 'wi_wormwood',
-		situation: [ 'Fourth-Wall Fenugreek asking you to press a button.' ],
-		image: 'pr_paprika.png',
-		opt1: 'Press!',
-		opt2: 'Press?',
-		opt1_outcome: [
-			{
-				chance: 20,
-				text:
-					'You fought using knowledge you learned from YamTube about self-defense. You fought and beet Kung Fu Kohlrabi.',
-				damage: 0,
-				image: 'pr_paprika/teary_eye.png',
-				id: ''
-			}
-		],
-		opt2_outcome: [
-			{
-				chance: 20,
-				text: 'Fourth-Wall Fenugreek knows that you like to press this button. But he lets you go this time.',
-				damage: 0,
-				image: 'pr_paprika/teary_eye_left.png',
-				id: ''
-			},
-			{
-				chance: 20,
-				text:
-					'Fourth-Wall Fenugreek knows that you like to press this button. So urm... You lose a health, I guess?',
-				damage: 1,
-				image: 'pr_paprika/teary_eye_left.png',
-				id: ''
-			}
-		]
 	}
+	// ,
+	// {
+	// 	scenario: 'wi_wormwood',
+	// 	situation: [ 'Fourth-Wall Fenugreek asking you to press a button.' ],
+	// 	image: 'pr_paprika.png',
+	// 	opt1: 'Press!',
+	// 	opt2: 'Press?',
+	// 	opt1_outcome: [
+	// 		{
+	// 			chance: 20,
+	// 			text:
+	// 				'You fought using knowledge you learned from YamTube about self-defense. You fought and beet Kung Fu Kohlrabi.',
+	// 			damage: 0,
+	// 			image: 'pr_paprika/teary_eye.png',
+	// 			id: ''
+	// 		}
+	// 	],
+	// 	opt2_outcome: [
+	// 		{
+	// 			chance: 20,
+	// 			text: 'Fourth-Wall Fenugreek knows that you like to press this button. But he lets you go this time.',
+	// 			damage: 0,
+	// 			image: 'pr_paprika/teary_eye_left.png',
+	// 			id: ''
+	// 		},
+	// 		{
+	// 			chance: 20,
+	// 			text:
+	// 				'Fourth-Wall Fenugreek knows that you like to press this button. So urm... You lose a health, I guess?',
+	// 			damage: 1,
+	// 			image: 'pr_paprika/teary_eye_left.png',
+	// 			id: ''
+	// 		}
+	// 	]
+	// }
 	// ,
 	// {
 	// 	scenario: 'fw_fenugreek',
