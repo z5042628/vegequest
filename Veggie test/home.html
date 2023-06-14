@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="veggie.css">
+    <title>Veggie test</title>
+</head>
+<!-- 375 x 667 -->
+<body>
+    <div class="background">
+        <div id="page1" class="page1">
+            <div class="bigtitle">
+                <div class="titleleft">Veggie</div>
+                <div class="titleright">Quest</div>
+            </div>
+            <div class="button_start_pos">
+                <button onclick="newgame()" class="button_start">Begin your Ad-veg-nture!</button>
+            </div>
+        </div>
+        <div id="level" class="level" style="display: none">
+            <div class="exit">
+                <button onclick="mainMenu()" class="exit_button">X</button>
+            </div>
+
+            <div class="play_level">
+                <div id="choosing_time" class="choosing_time">
+                    <div class="level_section">
+                        <div id="levelsituation" class="situation">
+                            A situation to face :O
+                        </div>
+                    </div>
+            
+                    <div class="image_section">
+                        <div id="levelimage">
+                            A picture goes here :)
+                        </div>
+                    </div>
+            
+                    <div class="wwyd_section">
+                        <div class="wwyd">
+                            What will you do?
+                        </div>
+                    </div>
+                </div>
+
+                <div id="outcome_time" class="outcome_time" style="display:none">
+                    <div class="leveloutcome_section" >
+                        <div id="leveloutcome" class="situation">
+                            The outcome of the situation
+                        </div>
+                    </div>
+                    <div class="imageoutcome_section">
+                        <div id="levelimageoutcome">
+                            A picture goes here :)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="button_space"> 
+                <div id="two_choice_time" class="button_choice">
+                    <div class="button_choice_section1">
+                        <button id="levelopt1" onclick="selectoption(1)" class="opt1">Option 1</button>
+                    </div>
+                    <div class="button_choice_section2">
+                        <button id="levelopt2" onclick="selectoption(2)" class="opt2">Option 2</button>
+                    </div>
+                </div>
+                <div id="progress_outcome_time" class="button_choice" style="display: none;">
+                    <button id="levelopt3" onclick="nextlevel()" class="opt3">Continue</button>
+                </div>
+            </div>
+        </div>
+        <div id="gameover" style="display: none;">
+            <div>
+                <p>game over :')</p>
+                <p>Will fix this part, dont worry, lol</p>
+            </div>
+            <div>
+                <button onclick="mainMenu()" class="button_start">Return back to Menu</button>
+            </div>
+        </div>
+        <div id="life" class="life" style="display: none">
+
+        </div>
+    </div>
+
+    <script src="./veggies.js"></script>
+</body>
+</html>

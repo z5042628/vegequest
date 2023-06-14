@@ -1,0 +1,222 @@
+/* 375 x 667  */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.background {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 375px;
+    height: 667px;
+    /* background-color: white; */
+    border: 5px rgb(51,69,30) solid;
+}
+
+.background .page1 {
+    background-image: url("./images/Veggies.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background .level{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.exit {
+    display: flex;
+    justify-content: end;
+    height: 5%;
+}
+
+.exit_button {
+    font-size: 20px;
+    color: rgb(199, 199, 199);
+    min-height: 2em;
+    padding: 5px 10px;
+    background-color:  rgb(44, 44, 44) ;
+    border: 0px;
+    /* border-radius: 15px; */
+    box-shadow: 2px 2px rgb(22, 22, 22);
+    word-wrap: break-word;
+    margin: 5px 5px;
+}
+
+.bigtitle {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 32px 0 0 0;
+    transform: rotate(-5deg);
+    font-family: Montserrat;
+}
+
+.bigtitle .titleleft{
+    text-align: left;
+    margin-left: 12%;
+}
+
+.bigtitle .titleright{
+    text-align: right;
+    margin-right: 12%;
+}
+
+.button_start_pos {
+    position: inherit;
+    margin-top: 90%;
+    text-align: center;
+}
+
+.button_start {
+    font-size: 20px;
+    color: wheat;
+    padding: 10px 50px;
+    background-color:  rgb(84,114,53) ;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(33, 46, 15);
+}
+
+.life {
+    font-size: 40px;
+    color: rgb(155,0,0);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 10px 0 0 10px;
+}
+
+.play_level{
+    width: 100%;
+    height: 75%;
+}
+
+.choosing_time{
+    width: 100%;
+    height: 100%;
+}
+
+.outcome_time {
+    width: 100%;
+    height: 100%;
+}
+
+.situation{
+    font-size: 24px;
+    padding: 0% 5% 0 5%;
+}
+
+.wwyd {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.level_section{
+    height: 35%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.image_section{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wwyd_section{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_space {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leveloutcome_section {
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.imageoutcome_section {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button_choice {
+    width: 100%;
+}
+
+.button_choice_section1 {
+    width: 50%;
+    float: left;
+}
+
+.button_choice_section2 {
+    width: 50%;
+    float: right;
+}
+
+.button_choice .opt1 {
+    font-size: 20px;
+    color: wheat;
+    min-height: 3.5em;
+    min-width: 90%;
+    max-width: 90%;
+    padding: 0px 10px;
+    background-color:  rgb(179, 63, 64) ;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(102, 23, 24);
+    word-wrap: break-word;
+}
+
+.button_choice .opt2 {
+    font-size: 20px;
+    color: wheat;
+    min-height: 3.5em;
+    min-width: 90%;
+    max-width: 90%;
+    padding: 0px 10px;
+    background-color:  rgb(64, 63, 179) ;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(24, 23, 102);
+    word-wrap: break-word;
+}
+
+.button_choice .opt3 {
+    font-size: 20px;
+    color: wheat;
+    min-height: 3.5em;
+    min-width: 90%;
+    max-width: 90%;
+    padding: 0px 10px;
+    background-color:  rgb(84,114,53) ;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(33, 46, 15);
+    word-wrap: break-word;
+}
